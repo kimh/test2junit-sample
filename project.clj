@@ -6,4 +6,4 @@
   :dependencies [[org.clojure/clojure "1.6.0"]]
   :plugins [[test2junit "1.1.2"]]
   :test2junit-output-dir ~(or (System/getenv "CIRCLE_TEST_REPORTS") "target/test2junit")
-  :main test2junit_sample.core)
+  :main test2junit-sample.core)

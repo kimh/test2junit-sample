@@ -1,4 +1,4 @@
-(ns test2junit_sample.core
+(ns test2junit-sample.core
   (:use clojure.test))
 
 (defn say-hi [] "hi")
@@ -7,7 +7,4 @@
 (defn -main
   "simple test"
   []
-  (is (= "hi" (say-hi)))
-  (is (= "ya" (say-yo))))
-
-
+  (true))
